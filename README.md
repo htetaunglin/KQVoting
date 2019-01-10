@@ -1,3 +1,26 @@
+<html>
+  <head>
+    
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+  </head>
+<body>
 <h1>KQ Voting APK</h1>
 <h5>TO USE FRESHER WELCOME</h5>
 <div class="row">
@@ -14,3 +37,5 @@
     <img src="https://raw.githubusercontent.com/htetaunglin/KQVote/master/innocence.png" alt="Innocence" width="100px" height="100px"/>
   </div>
 </div>
+</body>
+</html>
