@@ -1,6 +1,6 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    
+<head>
 <style>
 * {
   box-sizing: border-box;
@@ -19,23 +19,23 @@
   display: table;
 }
 </style>
-  </head>
+</head>
 <body>
-<h1>KQ Voting APK</h1>
-<h5>TO USE FRESHER WELCOME</h5>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
 <div class="row">
   <div class="column">
-    <img src="https://raw.githubusercontent.com/htetaunglin/KQVote/master/king.png" alt="King" width="100px" height="100px"/>
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/htetaunglin/KQVote/master/queen.png" alt="Queen" width="100px" height="100px"/>
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://raw.githubusercontent.com/htetaunglin/KQVote/master/popular.png" alt="Popular" width="100px" height="100px"/>
-  </div>
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/htetaunglin/KQVote/master/innocence.png" alt="Innocence" width="100px" height="100px"/>
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
+
 </body>
 </html>
