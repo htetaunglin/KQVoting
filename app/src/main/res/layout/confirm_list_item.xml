@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_layout"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+
+        <ImageView android:layout_width="32dp"
+                   android:id="@+id/cate_icon"
+                   android:layout_height="32dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/king_icon"/>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/king"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:src="@drawable/chevron_right"
+            android:layout_toLeftOf="@id/name_layout"
+    />
+    <LinearLayout
+            android:id="@+id/name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/icon_layout"
+            android:layout_alignTop="@id/profile_"
+            android:layout_centerVertical="true"
+            android:layout_alignBottom="@id/profile_"
+            android:layout_toRightOf="@id/icon_layout"
+            android:orientation="horizontal">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <!--android:background="@drawable/bk1"-->
+        <!--android:layout_marginLeft="40dp"/>-->
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_"
+            android:layout_centerVertical="true"
+            android:layout_width="80dp"
+            android:background="@drawable/bk2"
+            android:layout_height="80dp"
+            android:layout_alignStart="@id/name_layout"
+            android:src="@drawable/placeholder"
+            android:layout_alignLeft="@id/name_layout"/>
+
+
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:id="@+id/selected_name"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/profile_"
+            android:layout_alignTop="@id/name_layout"
+            android:layout_alignBottom="@id/name_layout"
+            android:gravity="center"
+            android:layout_marginLeft="32dp"
+            android:text="မောင်ကကြီး"
+            android:textColor="@android:color/black"/>
+</RelativeLayout>

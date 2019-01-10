@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b91b8</color>
+    <color name="colorPrimaryDark">#007799</color>
+    <color name="colorPrimaryDark2">#ffffff</color>
+    <color name="colorAccent">#ff4d0ded</color>
+
+    <!--For setting-->
+    <color name="setting_title_text_bk">#e3e3e3</color>
+    <color name="setting_title_text_color">#838383</color>
+
+    <color name="link_color">#0000EE</color>
+</resources>

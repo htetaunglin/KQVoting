@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:text="@string/cdtxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"/>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtday"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/background_dark"/>
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="@string/day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_gravity="top"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txthour"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/background_dark"/>
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="@string/hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_gravity="top"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtminute"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/background_dark"/>
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="@string/min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_gravity="top"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtsec"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/background_dark"/>
+            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                    android:text="@string/sec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:text="@string/cdtxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"/>
+</LinearLayout>

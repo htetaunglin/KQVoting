@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">KQ Voting</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+    <string name="title_result">Result</string>
+    <string name="option_notifications">Notifications</string>
+    <string name="option_setting">Setting</string>
+
+    <string name="test_string">မောင်မယ်သစ်လွင်များကို\nကွန်ပျူတာတက္ကသိုလ် (မအူပင်)\nမှ လှိုက်လှဲစွာ ကြိုဆိုပါသည်။
+    </string>
+    <string name="notic_launch">UCS(Maubin) <b>KQ Voting</b> Application မှကြိုဆိုပါတယ်။ လိုအပ်သည့် ညွှန်ကြားချက်များကို
+        ဒီ application မှတဆင့် ကြေငြာပေးသွားပါမယ်။
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="QRtologin">Scan with QR code</string>
+    <string name="cdtxt1">မဲပေးရန်</string>
+    <string name="cdtxt2">01 : 20 : 20</string>
+    <string name="cdtxt3">သာလိုတော့သည်</string>
+
+    <string name="notice2vote">မဲပေးလို့ရပါပြီ\nမဲစတင်ပေးရန်အတွက်\nQR code ကို scan ဖတ်ပါ</string>
+
+    <string name="notice2help">မဲပေးရာတွင် တစ်စုံတစ်ရာ အခက်အခဲရှိပါက တာဝန်ရှိသူများကို ဆက်သွယ်ပေးပါ။</string>
+
+    <string name="day">ရက္</string>
+    <string name="hour">နာရီ</string>
+    <string name="min">မိနစ္</string>
+    <string name="sec">စကၠန့္</string>
+    
+    <string name="c_r_title">ရွေးချယ်ခဲ့သော Result ကိုပြန်လည်စစ်ဆေးပေးပါ</string>
+    <string name="revote_btn">ပြန်ရွေးမယ်</string>
+    <string name="confirm_btn">အတည်ပြုမယ်</string>
+    <string name="king">King</string>
+    <string name="queen">Queen</string>
+    <string name="popularity">Popularity</string>
+    <string name="innocence">Innocence</string>
+
+    <string name="androidDev"><b>Htet Aung Lin</b>\n(Android Developer)</string>
+    <string name="webDev"><b>Hein Htet Aung</b>\n(Web Developer)</string>
+
+    <string name="default_notification_channel_id">ChannelID</string>
+
+    <string name="noti_launchactivity">တစ်စုံတစ်ရာ အခက်အခဲရှိပါက\napplication တာဝန်ရှိသူများကို\nဆက်သွယ်နိုင်ပါတယ်</string>
+
+    <string name="main_uni_name">University of Computer Studies (Maubin)</string>
+    <string name="main_academic">2018-2019 Academic Year\nFresher Welcome</string>
+    <string name="main_icon_caption">Voting System</string>
+
+</resources>

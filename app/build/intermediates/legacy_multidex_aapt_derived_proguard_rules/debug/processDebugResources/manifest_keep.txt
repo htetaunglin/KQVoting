@@ -1,0 +1,2 @@
+# Referenced at /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19
+-keep class edu.ucsmub.kqvoting.Application.KQVotingApplication { <init>(...); }

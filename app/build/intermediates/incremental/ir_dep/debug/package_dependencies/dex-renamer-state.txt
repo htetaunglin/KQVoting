@@ -1,0 +1,7 @@
+#Tue Jan 08 11:41:43 MMT 2019
+base.0=/Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/build/intermediates/transforms/dexMerger/debug/10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/build/intermediates/transforms/dexMerger/debug/10

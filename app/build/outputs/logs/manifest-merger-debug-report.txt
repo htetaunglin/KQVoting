@@ -1,0 +1,729 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8c5e0d7740b353050eeef907c6c4d565/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/e4750ea45b52967c23ab279d44dc7931/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/a88bd003584bc7b6ae0ad873e29ff7fc/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/ff9b1759b9bf9ec7c634a14acd56819f/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/12d99ac8adf744218b095696e6db50bb/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/2ddd31052cbc0af054f5084e7802a3c6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/88d4a80f9feab9ba5a9b9256f71d4ec0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/d0c8adc5cebdf7b056a8a058c854d0ed/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/PhotoView-2.3.0.aar/c5b36e58301207f3e1273ceaac4f26d1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/451beb27ed82e96a71bbaa00c50b4507/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fd6b06c7d2675e2fcaa69917a57e3b93/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/635f6ee70d8be9647aa0815f4735077d/AndroidManifest.xml:17:1-22:12
+MERGED from [me.dm7.barcodescanner:zxing:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1aee0419039c62e3ce4c8a1ab3f18853/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.8.4.aar/a637b3f36243de328e00fa0ee25b9963/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/4492b9d742dccbc3e3c330c02d79273c/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/c56f9897dbca0fcc90a7eb6365c7cc7d/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/cd997dae76cc7583cf9ae406b45993ac/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-functions:16.1.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-functions-16.1.0.aar/eb60fb60281cc1d75a696b0c27703917/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/7975839b713dcc1e6f43699ed8de66f0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/f2444707727c974b8be7f2af1b0677bc/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/eeb0e2e96a3f4eb3d0a8040aaa0c7eb6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bdbbbe71eb90fd875b2287face41becc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/de6e7b434364ca90d1dd19dfce89c9bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/556a870972c2a30dd2c48acf4863867e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/c7252129ef38bf26eb2c4d4eed1c7999/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/8b288ad24ec8b594525add4e36464950/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/e87f36081fd8122b047a8917cca63e2a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/c0d28dd8d44f895a7adf2467e824966d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/e75b35e57c6c68464dba68b69c1e7e3d/AndroidManifest.xml:17:1-22:12
+MERGED from [myatminsoe.mdetect.android:mdetect-android:3.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/mdetect-android-3.2.aar/4767e0c74c068b6fb4c2a12acf0a6995/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/7c568616fb634e95a26a2d5c2c2c2f21/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/c76b8f0507f1b2cbf79a9611d4562e38/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-guava:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-guava-2.1.0-alpha03.aar/f6db55658dd41589c20edc58268d77d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-coroutines-2.1.0-alpha03.aar/244d86e9b1d1b73d5b70029c3f461493/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/1731f6d2051fe4ad8ad41ca0f571465a/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.lzyzsd:circleprogress:1.2.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/circleprogress-1.2.1.aar/d905b7773331e5ac7aeb63f427efc0ed/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-circleimageview-2.2.0.aar/7c8034eeeff19033d6dc11e9d7cc8020/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/0ab6a4d1ebb40c5a137277f062bef1e8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/pageindicatorview-1.0.3.aar/c0bd79c7c08c67d2e8a475265c479186/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de0ad87ac5919b27720ea68beb091b74/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/bbeda849ddd9a55b69269517c6e7f652/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/8c924fec887bbbabee4aa12edcf2a74e/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/2a8e88d317acf4107943552655b5e814/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d1f63d10d4fce47ccb118444d34c86fc/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/d0fed08f87d8f0bb26477ce6061422fd/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/a9c202e2d8143da33269d609bfa3068c/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/26f4cb403ade8d7e66fe417dad32340d/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8ec2387a6b911787ee6c64779e63a5eb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1502314ded262200d6f367f859db55ae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/49653938b2f237145e0449aa09e019fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/eef07c02f4c06eb89b45f4576235b3af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/be8754e81f5426c6a8f5c4437d966324/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/31408e6cb1b3fcdd9ec1bbdd7291200c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/3563c884b9df4594b9403e7ba8a8f1f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/23d557e559808d18292dceb967dd3663/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/b226d40319e90d9bed55e57bb7c68d1b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5d6865aec4a0c0535e5e7187472b6ed9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2e38037aa9eb21a40df744f98249c462/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/8e9a3033dc40ce632d53cff4d20a3a2e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e4c41db0dfbf1b396a983b6cfe0d4ee2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b549f0fa2b63f7b691d793a5da597d28/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b32a2f314aa1412cf081db61c0fe8427/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/a416bddf190ef88bdeb126d2526b6141/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8443dcf8111e4d9b2ecae3e934c53544/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/0d3764659492729e0200f791160089d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/412076d92fcb177e70d73b9748470386/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/a1b9e14f221e8e08885f816814d87cc9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/547ced2ad085e57bb303b6c2da747a96/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/6a1bc4afb54616c970bec33a1efa56e6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/ae33977b061530ec0279c01215a764bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/472e3ca3ed2eb2801db7dfaea0fa586a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/65c1277d9937dc1c7a3c46178c7471f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f2e23d6b7cc0c32d5ea4e6197dd4cd61/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/e1282c0e2970104b4789b62d99695ed8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e37caa8cf1dd868e49e9c18b97b80bb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/0895cd1023034f750fa8e2b9d2d45835/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/f7fa6abc038566e83f895f165f545f13/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/3623011e806e1b01ecfec8f0feb4d9ce/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+	package
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:3:58-87
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:1-85:12
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:7:5-8:59
+	tools:ignore
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:8:22-57
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:7:22-90
+application
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:10:5-83:19
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/e4750ea45b52967c23ab279d44dc7931/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/e4750ea45b52967c23ab279d44dc7931/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/a88bd003584bc7b6ae0ad873e29ff7fc/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/a88bd003584bc7b6ae0ad873e29ff7fc/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/ff9b1759b9bf9ec7c634a14acd56819f/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/ff9b1759b9bf9ec7c634a14acd56819f/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/12d99ac8adf744218b095696e6db50bb/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/12d99ac8adf744218b095696e6db50bb/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/88d4a80f9feab9ba5a9b9256f71d4ec0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/88d4a80f9feab9ba5a9b9256f71d4ec0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/d0c8adc5cebdf7b056a8a058c854d0ed/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/d0c8adc5cebdf7b056a8a058c854d0ed/AndroidManifest.xml:9:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1aee0419039c62e3ce4c8a1ab3f18853/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1aee0419039c62e3ce4c8a1ab3f18853/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.8.4.aar/a637b3f36243de328e00fa0ee25b9963/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.8.4.aar/a637b3f36243de328e00fa0ee25b9963/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/4492b9d742dccbc3e3c330c02d79273c/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/4492b9d742dccbc3e3c330c02d79273c/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/c56f9897dbca0fcc90a7eb6365c7cc7d/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/c56f9897dbca0fcc90a7eb6365c7cc7d/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/7975839b713dcc1e6f43699ed8de66f0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/7975839b713dcc1e6f43699ed8de66f0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/f2444707727c974b8be7f2af1b0677bc/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/f2444707727c974b8be7f2af1b0677bc/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/eeb0e2e96a3f4eb3d0a8040aaa0c7eb6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/eeb0e2e96a3f4eb3d0a8040aaa0c7eb6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bdbbbe71eb90fd875b2287face41becc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bdbbbe71eb90fd875b2287face41becc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/de6e7b434364ca90d1dd19dfce89c9bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/de6e7b434364ca90d1dd19dfce89c9bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/556a870972c2a30dd2c48acf4863867e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/556a870972c2a30dd2c48acf4863867e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/c7252129ef38bf26eb2c4d4eed1c7999/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/c7252129ef38bf26eb2c4d4eed1c7999/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/8b288ad24ec8b594525add4e36464950/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/8b288ad24ec8b594525add4e36464950/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/e87f36081fd8122b047a8917cca63e2a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/e87f36081fd8122b047a8917cca63e2a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/7c568616fb634e95a26a2d5c2c2c2f21/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/7c568616fb634e95a26a2d5c2c2c2f21/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/1731f6d2051fe4ad8ad41ca0f571465a/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/1731f6d2051fe4ad8ad41ca0f571465a/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-circleimageview-2.2.0.aar/7c8034eeeff19033d6dc11e9d7cc8020/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-circleimageview-2.2.0.aar/7c8034eeeff19033d6dc11e9d7cc8020/AndroidManifest.xml:9:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de0ad87ac5919b27720ea68beb091b74/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de0ad87ac5919b27720ea68beb091b74/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/bbeda849ddd9a55b69269517c6e7f652/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/bbeda849ddd9a55b69269517c6e7f652/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/8c924fec887bbbabee4aa12edcf2a74e/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/8c924fec887bbbabee4aa12edcf2a74e/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/2a8e88d317acf4107943552655b5e814/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/2a8e88d317acf4107943552655b5e814/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d1f63d10d4fce47ccb118444d34c86fc/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d1f63d10d4fce47ccb118444d34c86fc/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b549f0fa2b63f7b691d793a5da597d28/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b549f0fa2b63f7b691d793a5da597d28/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/0895cd1023034f750fa8e2b9d2d45835/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/0895cd1023034f750fa8e2b9d2d45835/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:15:13-39
+	android:label
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:13:13-45
+	tools:ignore
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:18:13-72
+	android:roundIcon
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:14:13-58
+	android:icon
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:12:13-45
+	android:allowBackup
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:11:13-39
+	android:theme
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:17:13-60
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:21:9-23:57
+	android:resource
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:23:17-55
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:22:17-87
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:30:9-32:74
+	android:value
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:32:17-72
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:31:17-93
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:33:9-35:40
+	android:value
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:35:17-38
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:34:17-68
+meta-data#firebase_analytics_collection_enabled
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:36:9-38:40
+	android:value
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:38:17-38
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:37:17-69
+service#edu.ucsmub.kqvoting.service.MyFirebaseMessagingService
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:40:9-44:19
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:40:18-68
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:41:13-43:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:42:25-75
+service#edu.ucsmub.kqvoting.service.MyNotificationListenerService
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:45:9-51:19
+	android:label
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:46:18-50
+	android:permission
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:47:18-92
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:45:18-71
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:48:13-50:29
+action#android.service.notification.NotificationListenerService
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:49:17-98
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:49:25-96
+activity#edu.ucsmub.kqvoting.Activity.LaunchActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:54:9-60:20
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:54:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:56:17-68
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:58:27-74
+activity#edu.ucsmub.kqvoting.Activity.MainActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:63:17-49
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:62:17-54
+activity#edu.ucsmub.kqvoting.Activity.QRScanActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:66:9-68:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:68:19-70
+	android:theme
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:67:19-51
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:66:19-58
+activity#edu.ucsmub.kqvoting.Activity.VotingRoomActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:69:9-70:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:70:19-70
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:69:19-62
+activity#edu.ucsmub.kqvoting.Activity.ConfirmResultActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:71:9-72:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:72:19-70
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:71:19-65
+activity#edu.ucsmub.kqvoting.Activity.SettingActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:73:9-74:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:74:19-70
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:73:19-59
+activity#edu.ucsmub.kqvoting.Activity.DetailActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:75:9-76:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:76:19-70
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:75:19-58
+activity#edu.ucsmub.kqvoting.Activity.ShowPhotosActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:77:9-79:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:79:19-70
+	android:theme
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:78:19-51
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:77:19-62
+activity#edu.ucsmub.kqvoting.Activity.NotificationActivity
+ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:80:9-81:72
+	android:parentActivityName
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:81:19-70
+	android:name
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml:80:19-64
+uses-sdk
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8c5e0d7740b353050eeef907c6c4d565/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8c5e0d7740b353050eeef907c6c4d565/AndroidManifest.xml:20:5-43
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/e4750ea45b52967c23ab279d44dc7931/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-0.10.8.aar/e4750ea45b52967c23ab279d44dc7931/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/a88bd003584bc7b6ae0ad873e29ff7fc/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-0.10.8.aar/a88bd003584bc7b6ae0ad873e29ff7fc/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/ff9b1759b9bf9ec7c634a14acd56819f/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-appcompat-v7-coroutines-0.10.8.aar/ff9b1759b9bf9ec7c634a14acd56819f/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/12d99ac8adf744218b095696e6db50bb/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-commons-0.10.8.aar/12d99ac8adf744218b095696e6db50bb/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/2ddd31052cbc0af054f5084e7802a3c6/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-appcompatV7-base-0.10.8.aar/2ddd31052cbc0af054f5084e7802a3c6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/88d4a80f9feab9ba5a9b9256f71d4ec0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/88d4a80f9feab9ba5a9b9256f71d4ec0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/d0c8adc5cebdf7b056a8a058c854d0ed/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha3.aar/d0c8adc5cebdf7b056a8a058c854d0ed/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/PhotoView-2.3.0.aar/c5b36e58301207f3e1273ceaac4f26d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/PhotoView-2.3.0.aar/c5b36e58301207f3e1273ceaac4f26d1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/451beb27ed82e96a71bbaa00c50b4507/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/451beb27ed82e96a71bbaa00c50b4507/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fd6b06c7d2675e2fcaa69917a57e3b93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fd6b06c7d2675e2fcaa69917a57e3b93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/635f6ee70d8be9647aa0815f4735077d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/635f6ee70d8be9647aa0815f4735077d/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1aee0419039c62e3ce4c8a1ab3f18853/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/zxing-1.8.4.aar/1aee0419039c62e3ce4c8a1ab3f18853/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.8.4.aar/a637b3f36243de328e00fa0ee25b9963/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.8.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.8.4.aar/a637b3f36243de328e00fa0ee25b9963/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/4492b9d742dccbc3e3c330c02d79273c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-anko-support-v4-0.10.8.aar/4492b9d742dccbc3e3c330c02d79273c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/c56f9897dbca0fcc90a7eb6365c7cc7d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-support-v4-commons-0.10.8.aar/c56f9897dbca0fcc90a7eb6365c7cc7d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/cd997dae76cc7583cf9ae406b45993ac/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-supportV4-base-0.10.8.aar/cd997dae76cc7583cf9ae406b45993ac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-functions:16.1.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-functions-16.1.0.aar/eb60fb60281cc1d75a696b0c27703917/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-functions:16.1.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-functions-16.1.0.aar/eb60fb60281cc1d75a696b0c27703917/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/7975839b713dcc1e6f43699ed8de66f0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/7975839b713dcc1e6f43699ed8de66f0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/f2444707727c974b8be7f2af1b0677bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/f2444707727c974b8be7f2af1b0677bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/eeb0e2e96a3f4eb3d0a8040aaa0c7eb6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/eeb0e2e96a3f4eb3d0a8040aaa0c7eb6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bdbbbe71eb90fd875b2287face41becc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bdbbbe71eb90fd875b2287face41becc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/de6e7b434364ca90d1dd19dfce89c9bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/de6e7b434364ca90d1dd19dfce89c9bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/556a870972c2a30dd2c48acf4863867e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/556a870972c2a30dd2c48acf4863867e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/c7252129ef38bf26eb2c4d4eed1c7999/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/c7252129ef38bf26eb2c4d4eed1c7999/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/8b288ad24ec8b594525add4e36464950/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/8b288ad24ec8b594525add4e36464950/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/e87f36081fd8122b047a8917cca63e2a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/e87f36081fd8122b047a8917cca63e2a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/c0d28dd8d44f895a7adf2467e824966d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/c0d28dd8d44f895a7adf2467e824966d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/e75b35e57c6c68464dba68b69c1e7e3d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/e75b35e57c6c68464dba68b69c1e7e3d/AndroidManifest.xml:20:5-44
+MERGED from [myatminsoe.mdetect.android:mdetect-android:3.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/mdetect-android-3.2.aar/4767e0c74c068b6fb4c2a12acf0a6995/AndroidManifest.xml:8:5-10:41
+MERGED from [myatminsoe.mdetect.android:mdetect-android:3.2] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/mdetect-android-3.2.aar/4767e0c74c068b6fb4c2a12acf0a6995/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/7c568616fb634e95a26a2d5c2c2c2f21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/7c568616fb634e95a26a2d5c2c2c2f21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/c76b8f0507f1b2cbf79a9611d4562e38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava2:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-rxjava2-2.1.0-alpha03.aar/c76b8f0507f1b2cbf79a9611d4562e38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-guava:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-guava-2.1.0-alpha03.aar/f6db55658dd41589c20edc58268d77d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-guava:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-guava-2.1.0-alpha03.aar/f6db55658dd41589c20edc58268d77d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-coroutines-2.1.0-alpha03.aar/244d86e9b1d1b73d5b70029c3f461493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-coroutines-2.1.0-alpha03.aar/244d86e9b1d1b73d5b70029c3f461493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/1731f6d2051fe4ad8ad41ca0f571465a/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/1731f6d2051fe4ad8ad41ca0f571465a/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.lzyzsd:circleprogress:1.2.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/circleprogress-1.2.1.aar/d905b7773331e5ac7aeb63f427efc0ed/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.lzyzsd:circleprogress:1.2.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/circleprogress-1.2.1.aar/d905b7773331e5ac7aeb63f427efc0ed/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-circleimageview-2.2.0.aar/7c8034eeeff19033d6dc11e9d7cc8020/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-circleimageview-2.2.0.aar/7c8034eeeff19033d6dc11e9d7cc8020/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/0ab6a4d1ebb40c5a137277f062bef1e8/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/0ab6a4d1ebb40c5a137277f062bef1e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/pageindicatorview-1.0.3.aar/c0bd79c7c08c67d2e8a475265c479186/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/pageindicatorview-1.0.3.aar/c0bd79c7c08c67d2e8a475265c479186/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de0ad87ac5919b27720ea68beb091b74/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-coroutines-0.10.8.aar/de0ad87ac5919b27720ea68beb091b74/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/bbeda849ddd9a55b69269517c6e7f652/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-coroutines-0.10.8.aar/bbeda849ddd9a55b69269517c6e7f652/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/8c924fec887bbbabee4aa12edcf2a74e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.8.aar/8c924fec887bbbabee4aa12edcf2a74e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/2a8e88d317acf4107943552655b5e814/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-sdk27-0.10.8.aar/2a8e88d317acf4107943552655b5e814/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d1f63d10d4fce47ccb118444d34c86fc/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/anko-commons-0.10.8.aar/d1f63d10d4fce47ccb118444d34c86fc/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/d0fed08f87d8f0bb26477ce6061422fd/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-base-0.10.8.aar/d0fed08f87d8f0bb26477ce6061422fd/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/a9c202e2d8143da33269d609bfa3068c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/platform-base-0.10.8.aar/a9c202e2d8143da33269d609bfa3068c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/26f4cb403ade8d7e66fe417dad32340d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-commons-base-0.10.8.aar/26f4cb403ade8d7e66fe417dad32340d/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8ec2387a6b911787ee6c64779e63a5eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8ec2387a6b911787ee6c64779e63a5eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1502314ded262200d6f367f859db55ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1502314ded262200d6f367f859db55ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/49653938b2f237145e0449aa09e019fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/49653938b2f237145e0449aa09e019fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/eef07c02f4c06eb89b45f4576235b3af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/eef07c02f4c06eb89b45f4576235b3af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/be8754e81f5426c6a8f5c4437d966324/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/be8754e81f5426c6a8f5c4437d966324/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/31408e6cb1b3fcdd9ec1bbdd7291200c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/31408e6cb1b3fcdd9ec1bbdd7291200c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/3563c884b9df4594b9403e7ba8a8f1f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/3563c884b9df4594b9403e7ba8a8f1f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/23d557e559808d18292dceb967dd3663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/23d557e559808d18292dceb967dd3663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/b226d40319e90d9bed55e57bb7c68d1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/b226d40319e90d9bed55e57bb7c68d1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5d6865aec4a0c0535e5e7187472b6ed9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5d6865aec4a0c0535e5e7187472b6ed9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2e38037aa9eb21a40df744f98249c462/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/2e38037aa9eb21a40df744f98249c462/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/8e9a3033dc40ce632d53cff4d20a3a2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/8e9a3033dc40ce632d53cff4d20a3a2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e4c41db0dfbf1b396a983b6cfe0d4ee2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e4c41db0dfbf1b396a983b6cfe0d4ee2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/9b9da4641d08b4039c4f709e01de4c53/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b549f0fa2b63f7b691d793a5da597d28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b549f0fa2b63f7b691d793a5da597d28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b32a2f314aa1412cf081db61c0fe8427/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b32a2f314aa1412cf081db61c0fe8427/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/a416bddf190ef88bdeb126d2526b6141/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/a416bddf190ef88bdeb126d2526b6141/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8443dcf8111e4d9b2ecae3e934c53544/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/8443dcf8111e4d9b2ecae3e934c53544/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/0d3764659492729e0200f791160089d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/0d3764659492729e0200f791160089d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/412076d92fcb177e70d73b9748470386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/412076d92fcb177e70d73b9748470386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/a1b9e14f221e8e08885f816814d87cc9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/a1b9e14f221e8e08885f816814d87cc9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/547ced2ad085e57bb303b6c2da747a96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/547ced2ad085e57bb303b6c2da747a96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/6a1bc4afb54616c970bec33a1efa56e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0.aar/6a1bc4afb54616c970bec33a1efa56e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/ae33977b061530ec0279c01215a764bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0.aar/ae33977b061530ec0279c01215a764bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/472e3ca3ed2eb2801db7dfaea0fa586a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/472e3ca3ed2eb2801db7dfaea0fa586a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/65c1277d9937dc1c7a3c46178c7471f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/65c1277d9937dc1c7a3c46178c7471f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f2e23d6b7cc0c32d5ea4e6197dd4cd61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/f2e23d6b7cc0c32d5ea4e6197dd4cd61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/e1282c0e2970104b4789b62d99695ed8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/e1282c0e2970104b4789b62d99695ed8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e37caa8cf1dd868e49e9c18b97b80bb1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e37caa8cf1dd868e49e9c18b97b80bb1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/0895cd1023034f750fa8e2b9d2d45835/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/0895cd1023034f750fa8e2b9d2d45835/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/f7fa6abc038566e83f895f165f545f13/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/f7fa6abc038566e83f895f165f545f13/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/3623011e806e1b01ecfec8f0feb4d9ce/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/3623011e806e1b01ecfec8f0feb4d9ce/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/htetaunglin/Desktop/android_workspace/KQVoting2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/0ab6a4d1ebb40c5a137277f062bef1e8/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/0ab6a4d1ebb40c5a137277f062bef1e8/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:9:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:13:9-17:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:13:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.5] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/2317f6b78ac9dd901c637541458280d2/AndroidManifest.xml:15:17-111
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.4.aar/5a2fce5af983971fb7b55dbb5384fb8a/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/a45e4e80c3b8b3800fe8362985f468b6/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/f613c906c8d5163e5912df8d10a9d9b6/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/5bc8623fcd5f236fb3bbaadb11ef5131/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.4.aar/e11439d17cac19898835e7933d97399c/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b6ac057d1ed1a4b7266bc8a4c5eee889/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/bbaae67855be2578143af29413de84ed/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/a18e328d97a1d38f79bb36bad208e414/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0-alpha03] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/room-runtime-2.1.0-alpha03.aar/529e523bfec826c637d4099ecdcbfe71/AndroidManifest.xml:24:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/htetaunglin/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/a5103436d1bd40a4530013e42461bb49/AndroidManifest.xml:24:13-79

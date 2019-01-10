@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/appBarLayout"
+            android:background="@android:color/white"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    >
+
+        <androidx.appcompat.widget.Toolbar
+                app:titleTextColor="@color/colorPrimary"
+                android:id="@+id/conf_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:weightSum="2"
+            android:id="@+id/linearLayout">
+
+        <edu.ucsmub.kqvoting.customUI.UZawButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/revote_btn"
+                android:layout_margin="8dp"
+                android:id="@+id/revotebtn"
+                android:background="@drawable/bk_vr_title"
+                android:layout_weight="1"/>
+
+        <edu.ucsmub.kqvoting.customUI.UZawButton
+                android:id="@+id/confirmbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_btn"
+                android:layout_margin="8dp"
+                android:background="@drawable/bk_vr_title"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:text="@string/c_r_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UZawTextView" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:textColor="@android:color/background_dark"
+            android:padding="12dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toTopOf="@+id/UZawTextView"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            app:layout_constraintVertical_bias="0.0" android:id="@+id/recycler_voted_list"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

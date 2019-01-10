@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/launch_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_kq"
+            android:elevation="10dp"
+            android:layout_above="@id/launch_app_name"
+            android:layout_centerHorizontal="true"/>
+
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:id="@+id/launch_app_name"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    <ProgressBar
+            android:id="@+id/launchprogressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/launch_app_name"
+            android:layout_centerHorizontal="true"/>
+
+    <edu.ucsmub.kqvoting.customUI.UZawTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/launchprogressBar"
+            android:id="@+id/loadingtxt"
+            android:text="Loading...."
+            android:gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:id="@+id/retrybtn"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qrbtnbk"
+            android:text="Retry"
+            android:layout_below="@id/loadingtxt"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"/>
+
+    <!--<edu.ucsmub.kqvoting.customUI.UZawTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="32dp"-->
+            <!--android:paddingRight="32dp"-->
+            <!--android:paddingTop="8dp"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:background="@drawable/bk_vr_title"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="@string/noti_launchactivity"/>-->
+</RelativeLayout>

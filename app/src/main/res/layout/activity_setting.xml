@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginHorizontal="0dp"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <!--Get Data-->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp"
+                            android:text="Data"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16dp"
+                            android:textStyle="bold"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.2dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:background="#e9e9e9"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/refreshBtn"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:paddingBottom="16dp"
+                            android:paddingLeft="32dp"
+                            android:paddingTop="16dp"
+                            android:shadowColor="#fff"
+                            android:text="Refresh"
+                            android:textAllCaps="false"/>
+                </LinearLayout>
+                <!--Dev Names-->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp"
+                            android:text="Developed by"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16dp"
+                            android:textStyle="bold"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.2dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:background="#e9e9e9"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+
+                        <RelativeLayout android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="1">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:id="@+id/androiddev"
+                                    android:layout_height="100dp"
+                                    android:layout_gravity="center"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/placeholder"/>
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:padding="8dp"
+                                    android:background="@drawable/iconbk"
+                                    android:src="@drawable/android"
+                                    android:layout_alignEnd="@id/androiddev"
+                                    android:layout_alignBottom="@id/androiddev"
+                                    android:layout_alignRight="@id/androiddev"/>
+
+                            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                                    android:layout_below="@id/androiddev"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/androidDev"
+                                    android:textColor="@android:color/black"
+                                    android:gravity="center"
+                                    android:layout_gravity="center"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="1">
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:id="@+id/webdev"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/placeholder"/>
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="36dp"
+                                    android:padding="4dp"
+                                    android:background="@drawable/iconbk"
+                                    android:layout_height="36dp"
+                                    android:src="@drawable/code_tags"
+                                    android:layout_alignEnd="@id/webdev"
+                                    android:layout_alignBottom="@id/webdev"
+                                    android:layout_alignRight="@id/webdev"/>
+
+                            <edu.ucsmub.kqvoting.customUI.UZawTextView
+                                    android:layout_marginTop="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/webdev"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/webDev"
+                                    android:gravity="center"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp"
+                            android:layout_marginStart="16dp"
+                            android:text="Powered by"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.2dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:background="#e9e9e9"/>
+                    <ImageView
+                            android:onClick="gotoFirebase"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:scaleType="fitStart"
+                            android:layout_height="40dp"
+                            android:src="@drawable/firebase"
+                            android:layout_marginStart="16dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

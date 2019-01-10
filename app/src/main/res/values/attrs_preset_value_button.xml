@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PresetValueButton">
+        <attr name="name" format="string" />
+        <attr name="section" format="string" />
+        <attr name="vote" format="boolean" />
+        <attr name="profile" format="string" />
+    </declare-styleable>
+</resources>

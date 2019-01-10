@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noti_logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/icon_kq"
+            tools:ignore="VectorDrawableCompat"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/noti_logo"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:id="@+id/noti_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voting"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"/>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:id="@+id/noti_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:00 am"/>
+
+        <edu.ucsmub.kqvoting.customUI.UZawTextView
+                android:id="@+id/noti_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="Hello"/>
+    </LinearLayout>
+
+</RelativeLayout>
